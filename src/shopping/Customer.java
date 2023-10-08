@@ -9,8 +9,8 @@ public class Customer {
 
     public static void main(String[] args) throws IOException {
         product = shopping.Product.getInstance(productItems);
-        System.out.println(maxGstPaidForAnItem());
-        System.out.println(sumOfAllPrice());
+        System.out.println("This maximum GST paid for a product "+maxGstPaidForAnItem());
+        System.out.println("Sum of all prices "+sumOfAllPrice());
     }
 
     private static double sumOfAllPrice() {
